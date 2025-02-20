@@ -1,33 +1,33 @@
 {
-  "version": "0.12.18",
-  "description": "An integrated language service for Typst",
-  "homepage": "https://myriad-dreamin.github.io/tinymist",
-  "license": "Apache-2.0",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.12.18/tinymist-x86_64-pc-windows-msvc.zip",
-      "hash": "76466a734df722a6cc1008ead63c62475e28208de044a238981ea58999334cba"
-    },
-    "arm64": {
-      "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.12.18/tinymist-aarch64-pc-windows-msvc.zip",
-      "hash": "594a3f134d94a71bb414bb11af8085f7a71a07315ee6e03dbdd9a115dd42699c"
-    }
-  },
-  "bin": "tinymist.exe",
-  "checkver": {
-    "github": "https://github.com/Myriad-Dreamin/tinymist"
-  },
-  "autoupdate": {
+    "version": "0.12.20",
+    "description": "An integrated language service for Typst",
+    "homepage": "https://myriad-dreamin.github.io/tinymist",
+    "license": "Apache-2.0",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v$version/tinymist-aarch64-pc-windows-msvc.zip"
-      },
-      "arm64": {
-        "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v$version/tinymist-aarch64-pc-windows-msvc.zip"
-      }
+        "64bit": {
+            "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.12.20/tinymist-aarch64-pc-windows-msvc.zip",
+            "hash": "600fd67f80e6de1ba1db728aeb3063851d1dffa9c3263cf6b364b31883cf22c8"
+        },
+        "arm64": {
+            "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.12.20/tinymist-aarch64-pc-windows-msvc.zip",
+            "hash": "600fd67f80e6de1ba1db728aeb3063851d1dffa9c3263cf6b364b31883cf22c8"
+        }
     },
-    "hash": {
-      "url": "$url.sha256"
+    "bin": "tinymist.exe",
+    "checkver": {
+        "github": "https://github.com/Myriad-Dreamin/tinymist"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v$version/tinymist-aarch64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v$version/tinymist-aarch64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
     }
-  }
 }
